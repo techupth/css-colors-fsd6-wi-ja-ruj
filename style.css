@@ -1,1 +1,30 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  width: 23vw;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
